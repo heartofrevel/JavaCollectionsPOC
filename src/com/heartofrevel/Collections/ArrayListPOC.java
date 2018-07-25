@@ -10,7 +10,7 @@
  the collection is automatically enlarged.
  When objects are removed, the array may be shrunk.
  */
-package com.heartofrevel;
+package com.heartofrevel.Collections;
 
 import com.heartofrevel.Helpers.ArrayListHelper;
 
