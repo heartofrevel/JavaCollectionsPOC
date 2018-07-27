@@ -1,5 +1,5 @@
 /**
- The ArrayList class extends AbstractList and implements the List interface.
+ The ArrayList class extends AbstractList and implements the ListImplementations interface.
  ArrayList supports dynamic arrays that can grow as needed.
 
  Standard Java arrays are of a fixed length.
@@ -10,7 +10,7 @@
  the collection is automatically enlarged.
  When objects are removed, the array may be shrunk.
  */
-package com.heartofrevel.Collections;
+package com.heartofrevel.Collections.ListImplementations;
 
 import com.heartofrevel.Helpers.ArrayListHelper;
 
@@ -168,7 +168,7 @@ public class ArrayListPOC {
         /**
          int indexOf(Object o)
          Returns the index in this list of the first occurrence of the specified
-         element, or -1 if the List does not contain this element.
+         element, or -1 if the ListImplementations does not contain this element.
          */
         System.out.println(normalList.indexOf(1));
         System.out.println(normalList.indexOf(null));
@@ -200,7 +200,7 @@ public class ArrayListPOC {
 
         /**
          protected void removeRange(int fromIndex, int toIndex)
-         Removes from this List all of the elements whose index is between fromIndex,
+         Removes from this ListImplementations all of the elements whose index is between fromIndex,
          inclusive and toIndex, exclusive.
          */
         /*
@@ -256,7 +256,5 @@ public class ArrayListPOC {
         capacityList.trimToSize();
         System.out.println(ArrayListHelper.getArrayListCapacity(capacityList));
         //As you can see that our capacityList capacity is trimmed to it's size.
-
-
     }
 }
